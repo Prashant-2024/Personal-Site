@@ -12,6 +12,14 @@
 }
 
 .btn-yellow {
+  background-color: #ffbc03;
+  border: 2px solid white;
+}
+
+.btn-yellow:hover {
+  background-color: #ffdc7c;
+  color: black;
+  border: 2px solid black;
 }
 
 body {
