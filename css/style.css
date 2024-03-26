@@ -11,6 +11,9 @@
   font-style: normal;
 }
 
+.btn-yellow {
+}
+
 body {
   background-color: black;
   color: white;
@@ -33,4 +36,19 @@ body {
 
 .nav-link {
   color: black;
+}
+
+#home h1 {
+  color: white !important;
+}
+
+#home-name {
+  color: #ffbc03;
+}
+
+.img-circle {
+  border-radius: 100%;
+  border-color: #ffbc03;
+  border-width: 10px;
+  border-style: double;
 }
