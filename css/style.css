@@ -60,3 +60,13 @@ body {
   border-width: 10px;
   border-style: double;
 }
+
+.feature-card {
+  background-color: #ffbc03 !important;
+  border: 5px dotted black;
+}
+
+.feature-heading {
+  color: #ffbc03;
+  font-family: "Dancing Script", cursive;
+}
