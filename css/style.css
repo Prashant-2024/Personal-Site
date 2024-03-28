@@ -42,7 +42,7 @@ body {
   border-radius: 20px;
 }
 
-.nav-link {
+.nav-bar > li > a {
   color: black;
 }
 
@@ -69,4 +69,14 @@ body {
 .feature-heading {
   color: #ffbc03;
   font-family: "Dancing Script", cursive;
+}
+
+.work-images {
+  background-color: #ffbc03;
+  border: 10px double black;
+  border-radius: 10%;
+}
+
+.footer-nav > li > a {
+  color: white;
 }

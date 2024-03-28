@@ -1,209 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <!-- Pacifico Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Rubik Glitch Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Dancing Script font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1 id="header" class="pacifico-regular">The Portfolio</h1>
-    </header>
 
-    <nav>
-      <div class="container nav-container">
-        <header class="d-flex flex-wrap justify-content-center py-2 mb-3">
-          <a
-            href="/"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-          >
-            <span class="fs-2 rubik-glitch-regular">PS</span>
-          </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <!-- Pacifico Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <!-- Rubik Glitch Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet" />
+  <!-- Dancing Script font -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
 
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a href="#" class="nav-link" aria-current="page">Home</a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          </ul>
-        </header>
+<body>
+  <header>
+    <h1 id="header" class="pacifico-regular">The Portfolio</h1>
+  </header>
+
+  <nav>
+    <div class="container nav-container">
+      <header class="d-flex flex-wrap justify-content-center py-2 mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <span class="fs-2 rubik-glitch-regular">PS</span>
+        </a>
+
+        <ul class="nav nav-pills nav-bar">
+          <li class="nav-item">
+            <a href="#" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">What I Do?</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
+    </div>
+  </nav>
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/robo-img.jpg" class="d-block mx-lg-auto img-fluid img-circle" alt="Bootstrap Themes"
+              width="700" height="500" loading="lazy" />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              Hi, I'm <span id="home-name">Prashant</span> Web Developer
+            </h1>
+            <p class="lead">
+              Welcome to my Portfolio. I'm a Web Developer currently pursuing
+              B.Tech and upskilling DSA and AI/ML. I like to dwell myself in
+              Web Development. Look into it and see for yourself.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-lg px-4 me-md-2 btn-yellow">
+                <img src="./images/hand-mouse-icon.svg" alt="mouse-hand-icon" height="30" loading="lazy" />
+                Get in touch
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-    <main>
-      <!-- Home Section -->
-      <section id="home">
-        <div class="container col-xxl-8 px-4 py-5">
-          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-              <img
-                src="./images/robo-img.jpg"
-                class="d-block mx-lg-auto img-fluid img-circle"
-                alt="Bootstrap Themes"
-                width="700"
-                height="500"
-                loading="lazy"
-              />
+    </section>
+
+    <!-- Feature/Skill Section -->
+
+    <section id="feature-skill">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 text-center">
+          <b>What I Do?</b><br /><big><span class="feature-heading">Develop</span> and Create</big>
+        </h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg feature-card">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  I enjoy giving pages life so that websites don't have to be
+                  static.
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="./images/human-skill-icon.png" alt="human-skill-icon" height="50px" />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small><b>Dynamic</b></small>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="col-lg-6">
-              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-                Hi, I'm <span id="home-name">Prashant</span> Web Developer
-              </h1>
-              <p class="lead">
-                Welcome to my Portfolio. I'm a Web Developer currently pursuing
-                B.Tech and upskilling DSA and AI/ML. I like to dwell myself in
-                Web Development. Look into it and see for yourself.
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg feature-card">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  All of my layouts are compatible with all sizes of devices.
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="./images/man-workspace.png" alt="man-workspace" height="50px" />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small><b>Responsive</b></small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg feature-card">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  My top priorities are lag-free interaction and quick load
+                  times.
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="./images/people-icon.png" alt="people-icon" height="50px" />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small><b>Fast</b></small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work/project section -->
+
+    <section id="work">
+      <div class="container px-4 py-5">
+        <h2 class="text-center mb-5 fs-2 text-decoration">
+          <big>Projects</big>
+        </h2>
+        <div class="d-flex flex-column-reverse flex-lg-row-reverse row-cols-lg-2 gap-3 align-items-center mb-4 py-2">
+          <div class="work-images d-flex justify-content-center">
+            <img src="./images/work-1.png" alt="phone-img-work1" height="500px" />
+          </div>
+          <div class="">
+            <div class="m-lg-5 m-4 flex-fill">
+              <h1 class="fw-bold">Portfolio</h1>
+              <p>
+                Stay connected and with me on this Portfolio website, build
+                purely with HTML and Bootstrap CSS.
               </p>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button
-                  type="button"
-                  class="btn btn-lg px-4 me-md-2 btn-yellow"
-                >
-                  <img
-                    src="./images/hand-mouse-icon.svg"
-                    alt="mouse-hand-icon"
-                    height="30"
-                    loading="lazy"
-                  />
-                  Get in touch
-                </button>
-              </div>
+              <a target="_blank" href="#"><button class="btn-yellow p-2">Checkout</button></a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Feature/Skill Section -->
+    <!-- Contact Section -->
 
-      <section id="feature-skill">
-        <div class="container px-4 py-5" id="custom-cards">
-          <h2 class="pb-2 text-center">
-            <b>What I Do?</b><br /><big
-              ><span class="feature-heading">Develop</span> and Create</big
-            >
-          </h2>
-
-          <div
-            class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
-          >
-            <div class="col">
-              <div
-                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg feature-card"
-              >
-                <div
-                  class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
-                >
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                    I enjoy giving pages life so that websites don't have to be
-                    static.
-                  </h3>
-                  <ul class="d-flex list-unstyled mt-auto">
-                    <li class="me-auto">
-                      <img
-                        src="./images/human-skill-icon.png"
-                        alt="human-skill-icon"
-                        height="50px"
-                      />
-                    </li>
-                    <li class="d-flex align-items-center me-3">
-                      <svg class="bi me-2" width="1em" height="1em">
-                        <use xlink:href="#geo-fill"></use>
-                      </svg>
-                      <small><b>Dynamic</b></small>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div
-                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg feature-card"
-              >
-                <div
-                  class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
-                >
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                    All of my layouts are compatible with all sizes of devices.
-                  </h3>
-                  <ul class="d-flex list-unstyled mt-auto">
-                    <li class="me-auto">
-                      <img
-                        src="./images/man-workspace.png"
-                        alt="man-workspace"
-                        height="50px"
-                      />
-                    </li>
-                    <li class="d-flex align-items-center me-3">
-                      <svg class="bi me-2" width="1em" height="1em">
-                        <use xlink:href="#geo-fill"></use>
-                      </svg>
-                      <small><b>Responsive</b></small>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div
-                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg feature-card"
-              >
-                <div
-                  class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
-                >
-                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                    My top priorities are lag-free interaction and quick load
-                    times.
-                  </h3>
-                  <ul class="d-flex list-unstyled mt-auto">
-                    <li class="me-auto">
-                      <img
-                        src="./images/people-icon.png"
-                        alt="people-icon"
-                        height="50px"
-                      />
-                    </li>
-                    <li class="d-flex align-items-center me-3">
-                      <svg class="bi me-2" width="1em" height="1em">
-                        <use xlink:href="#geo-fill"></use>
-                      </svg>
-                      <small><b>Fast</b></small>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+    <section id="contact-me">
+      <div class="container my-5">
+        <div class="p-5 text-center rounded-3">
+          <img src="./images/contact-icon.png" alt="contact-icon">
+          <use xlink:href="#bootstrap"></use>
+          </svg>
+          <h1 class="text-ligth-emphasis mb-3"><b>Look me Up</b></h1>
+          <p class="col-lg-8 mx-auto fs-5">
+            Open to collaborate and work on project. Ready to dwell in
+            Web/Android Dev. DSA challenge Ready?
+          </p>
+          <div class="d-inline-flex gap-5 mb-5">
+            <button class="d-inline-flex align-items-center btn btn-yellow btn-lg px-3 rounded-pill me-md-2 gap-2"
+              type="button">
+              LinkedIn
+              <img src="./images/linkedin-icon.png" alt="mailbox-icon" height="20px" />
+            </button>
+            <button class="d-inline-flex align-items-center btn btn-yellow btn-lg px-3 rounded-pill me-md-2 gap-2"
+              type="button">
+              Github
+              <img src="./images/github-icon.png" alt="mailbox-icon" height="20px" />
+            </button>
+            <button class="d-inline-flex align-items-center btn btn-yellow btn-lg px-3 rounded-pill me-md-2 gap-2"
+              type="button">
+              Twitter
+              <img src="./images/twitter-icon.png" alt="mailbox-icon" height="20px" />
+            </button>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section id="footer">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center pb-3 my-3 footer-nav border-bottom">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-dark-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-dark-secondary">What I Do?</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-dark-secondary">Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-dark-secondary">Contact</a></li>
+          </ul>
+          <p class="text-center text-dark-secondary">© 2024 Company, Inc</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
